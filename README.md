@@ -22,3 +22,40 @@ npm i ou npm install
 ## Atlas
 - Criar um novo projeto
 - Criar um novo cluster
+
+# Explicação das regras
+## API POKEMON
+Contexto: Desenvolver uma api para gerenciamento de pokemons de uma rede de zoológicos
+
+Requisitos: 
+- Cadastrar zoológica
+- Excluir zoológico
+- Cadastrar novo pokemon
+- Listar pokemons
+- Detalhes de um pokemon
+- Editar um pokemon
+- Excluir um pokemon
+
+Entidades: 
+* Pokemon
+  - nome
+  - peso
+  - atributo
+  - alimentação
+  - espécie
+  - em extinção
+  - agressividade
+  - id do zoológico
+* Zoológico
+  - nome
+  - endereço
+  - número de pokemons no zoológico
+  - responsável
+  - número de funcionários
+  
+Requisitos não funcionais: 
+- Só pode excluir um zoológico sem pokemons ✅
+- Existe uma máximo de X (0 <= X <= 30) pokemons por zoológico ✅
+- A cidade tem espaço para 5 zoológicos cheios
+- Deve ser usado o banco de dados MongoDB ✅
+- O framework http deve ser express ✅
