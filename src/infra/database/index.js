@@ -15,7 +15,7 @@ mongoose.connection.on('error', (err) => {
 
 const connect = async () => {
     await mongoose.connect(
-        'mongodb+srv://kelviakolln_db_user:ClZP8T6p8ej7VxMe@cluster0.k0d1nwp.mongodb.net/api_pokemon'
+        //api_pokemon -> database name
     )
 };
 

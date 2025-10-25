@@ -13,7 +13,7 @@ const ZoologicalSchema = new Schema({
     pokemons: Number,
     responsable: String,
     employers: Number
-});
+})
 
 export default mongoose.model('Zoological', ZoologicalSchema, 'zoological')
 // Nome do modelo

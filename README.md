@@ -35,6 +35,12 @@ Requisitos:
 - Detalhes de um pokemon
 - Editar um pokemon
 - Excluir um pokemon
+## Adicionado no dia 25/10/2025
+- Desvincular um pokémon de um zoológico
+- Vincular um pokémon com um zoológico
+- Listar pokémons sem zoológico
+## Vai ser adicionado
+- Adicionar autenticação com jwt, para permitir apenas usuários logados a acessarem a API
 
 Entidades: 
 * Pokemon
@@ -52,6 +58,12 @@ Entidades:
   - número de pokemons no zoológico
   - responsável
   - número de funcionários
+## Adicionado no dia 25/10/2025
+* Usuário
+  - nome
+  - e-mail
+  - senha
+  - perfil (admin, funcionário e visitante)
   
 Requisitos não funcionais: 
 - Só pode excluir um zoológico sem pokemons ✅

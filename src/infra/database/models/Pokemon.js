@@ -10,7 +10,7 @@ const PokemonSchema = new Schema({
     species: String,
     endangered: Boolean,
     aggressiveness: Number,
-    zoological_id: { type: Schema.Types.ObjectId, ref: 'Zoological' }
-});
+    zoological_id: { type: Schema.Types.ObjectId, ref: 'Zoological' } // Se colocar o required: true, toda vez que criar um pokémon, ele precisará estar vinculado a um zoológico
+})
 
 export default mongoose.model('Pokemon', PokemonSchema, 'pokemon')
